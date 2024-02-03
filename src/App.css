@@ -1,0 +1,250 @@
+
+
+.firstSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firstSection > div{
+  width: 30%;
+
+}
+
+.leftSection {
+  font-size: 3rem;
+  margin: 30px 0; /* Adjust the margin here */
+  color: aliceblue;
+  padding: 280px 0 10px;
+}
+
+.rightSection{
+  width: 80%;
+  
+}
+
+#element{
+  color: #ff5d56;
+}
+
+  
+
+  .Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px auto;
+    /* width: 250px; */
+    height:250px;
+    background: white;
+    border-radius: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff5d56; /* Change this to the color you prefer on hover */
+  }
+
+  .btn-outline-dark:hover {
+    color: #ff5d56 !important; /* Change text color on hover */
+    border-color: #ff5d56 !important; /* Change border color on hover */
+    background-color: transparent !important; /* Change background color on hover */
+  }
+
+  .Toastify__progress-bar--success {
+    background-color: #ff5d56 !important;
+  }
+
+  .Toastify__toast--success svg path {
+    fill: #ff5d56 !important;
+  }
+  .counter-single .icon-box {
+    font-size: 50px;
+    color: #ff5d56;
+    /* line-height: 80px; */
+    /* margin-bottom: 10px; */
+    width: 80px;
+    height: 80px;
+    border-right: 1px solid #333;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.counter-single h4 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+  
+}
+
+.counter-single {
+  display: flex;
+  align-items: center;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+}
+
+.leftSections {
+  margin-left: 10px; /* Adjust margin as needed */
+  flex-grow: 1;
+  /* text-align: right; */
+}
+
+.rightSections{
+  margin-left: 10px; /* Adjust margin as needed */
+  flex-grow: 1;
+
+}
+/* @keyframes counting {
+  from {
+    content: "0";
+  }
+  to {
+    content: "25"; 
+  }
+}
+
+.counter {
+  counter-reset: count;
+  animation: counting 2s ease-in-out forwards;
+  font-size: 36px; 
+  font-weight: bold;
+  color: #ff5d56; 
+}
+
+
+.counter::before {
+  content: counter(count);
+  counter-increment: count;
+} */
+
+
+/* Set animation-delay for each digit */
+
+
+  /* .overlay { */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); Adjust opacity as needed */
+  /* } */
+  
+  
+  
+  /* .Card:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  }
+  
+  .Card:hover::before, .Card:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #ff5d56;
+    border-radius: 75px;
+    z-index: -1;
+    animation: 1s clockwise;
+  }
+  
+  .Card:hover:after {
+    background: #ff5d56;
+    animation: 2s counterclockwise;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
+
+ */

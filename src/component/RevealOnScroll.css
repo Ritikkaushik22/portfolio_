@@ -1,0 +1,12 @@
+/* CSS file for the reveal effect */
+.reveal-element {
+    opacity: 0;
+    transform: translateY(20px); /* Initial hidden position, adjust as needed */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

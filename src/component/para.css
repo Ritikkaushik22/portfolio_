@@ -1,0 +1,11 @@
+.flex-container {
+    -webkit-line-clamp: 3;
+    display: -webkit-box; /* For older WebKit browsers */
+    /* display: flex; Standardized display property for flexbox */
+    -webkit-box-orient: vertical; /* Deprecated */
+    /* box-orient: vertical; Standardized property */
+    overflow: hidden;
+  
+    /* Additional styling */
+    border: 1px solid #ccc;
+  }
